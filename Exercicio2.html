@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+<body>
+
+    <script>
+function contadorRegressivo(tempo) {
+  for (let i = tempo; i >= 0; i--) {
+    setTimeout(function () {
+      if (i === 0) {
+        document.write("Explosão");
+      } else {
+        document.write(i + "<br>");
+      }
+    }, (tempo - i) * 1000);
+  }
+}
+
+contadorRegressivo(30); 
+
+
+
+</script>
+</body>
+</html>

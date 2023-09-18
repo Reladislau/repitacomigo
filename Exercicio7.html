@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <h1>Vendo Médias</h1>
+    <script>
+
+      
+
+for (r = "S"; r == "S";) {
+
+      let num1 = parseFloat(prompt("Digite a primeira nota"));
+      let num2 = parseFloat(prompt("Digite a segunda nota"));
+      let num3 = parseFloat(prompt("Digite a terceira nota"));
+      let num4 = parseFloat(prompt("Digite a quarta nota"));
+      let num5 = parseFloat(prompt("Digite a quinta nota"));
+      let num6 = parseFloat(prompt("Digite a sexta nota"));
+      let resultado = 0
+
+
+      for (;n1<0 || n1>10;) {
+        num1 = parseFloat(prompt("Digite novamente a Primeira Nota"));
+      }
+
+      for (;n2<0 || n2>10;) {
+        num2 = parseFloat(prompt("Digite novamente a Segunda nota"));
+      }
+
+      for (;n3<0 || n3>10;) {
+        num3 = parseFloat(prompt("Digite novamente a terceira nota"));
+      }
+
+      for (;n4<0 || n4>10;) {
+        num4 = parseFloat(prompt("Digite novamente a quarta nota"));
+      }
+
+      for (;n5<0 || n5>10;) {
+        num5 = parseFloat(prompt("Digite novamente a quinta nota"));
+      }
+
+      
+
+      for (;n6<0 || n6>10;) {
+        n6 = parseFloat(prompt("Digite novamente a sexta nota"));
+      }
+
+      resultado = (num1+num2+num3+num4+num5+num6)/6
+
+      document.write("Média do aluno: ",resultado)
+
+      r = prompt("Gostaria fazer outra média? digite S para sim ou N para não");
+      }
+
+    </script>
+
+</body>
+</html>

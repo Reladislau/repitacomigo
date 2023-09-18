@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <h2>Dividindo Pelo Segundo Número</h2>
+    <Script>
+        let numero1 = parseFloat(prompt("Digite o Primeiro Valor"))
+        let numero2 = parseFloat(prompt("Digite o Segundo Valor"))
+        let resposta
+
+        for(;numero2<=0;){
+            alert("Valor Incorreto! Digite um Valor maior que Zero")
+            numero2 = prompt("Digite o Segundo Valor")
+        }
+
+        resposta = numero1/numero2
+        document.write(numero1," / ", numero2, " = ", resposta)
+
+    </Script>
+</body>
+</html>
